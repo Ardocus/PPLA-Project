@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    background-color: #2d4a2d;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+#joinButton, #eventsButton {
+    display: inline-block;
+    color: #e8dfc8;
+    border: 1px solid #e8dfc8;
+    padding: 0.5em 1.4em;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.navbar {
+    background-color: #e8dfc8;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.left-items {
+    color: #2d4a2d;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.right-items {
+    color: #2d4a2d;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#PPLA {
+    color: #8fbb7a;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+
+}
+
+#slogan {
+    color: #e8dfc8;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+}
+
+#description {
+    color: #a8c68a;
+    font-family: "Roboto", sans-serif;
+}
+
+#PPLA, #slogan, #description {
+    text-align: center;
+}
