@@ -37,7 +37,7 @@ a:visited {
     justify-content: space-between;
     align-items: center;
     border-radius: 15px;
-    height: clamp(4rem, 4vw, 3.5rem);
+    height: clamp(4.3rem, 4vw, 3.5rem);
 }
 
 .left-items {
@@ -46,7 +46,7 @@ a:visited {
     display: flex;
     align-items: center;
     gap: 1rem;
-    font-size: clamp(1.2rem, 2vw, 1.6rem);
+    font-size: clamp(1.5rem, 2vw, 1.6rem);
     font-weight: 500;
 }
 
@@ -56,7 +56,7 @@ a:visited {
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    font-size: clamp(1.3rem, 1.3vw, 1.1rem);
+    font-size: clamp(1.4rem, 1.3vw, 1.1rem);
     letter-spacing: 0.01em;
 }
 
@@ -141,12 +141,14 @@ a:visited {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 7rem 2rem 2rem;
+    padding: 2rem 2rem 2rem;
     box-sizing: border-box;
+    padding-bottom: 6rem;
 }
 
 .aboutGrid {
     display: grid;
+    margin-top: -10rem;
     grid-template-columns: 1fr 0.5fr 1fr;
     gap: 2rem 4rem;
     width: 100%;
@@ -207,7 +209,7 @@ a:visited {
 #actionPlan {
     color: #e8dfc8;
     font-family: "Oswald", sans-serif;
-    font-size: clamp(3.5rem, 1.6vw, 1.3rem);
+    font-size: clamp(4rem, 1.6vw, 1.3rem);
     letter-spacing: 0.01em;
     text-align: center;
     margin-bottom: -2rem;
@@ -217,7 +219,7 @@ a:visited {
 #building {
     color: #8fbb7a;
     font-family: "Oswald", sans-serif;
-    font-size: clamp(3.5rem, 1.6vw, 1.3rem);
+    font-size: clamp(3.7rem, 1.6vw, 1.3rem);
     letter-spacing: 0.01em;
     text-align: center;
     padding: 1em;
@@ -284,6 +286,11 @@ a:visited {
     align-items: center;
     padding: 7rem 2rem 2rem;
     box-sizing: border-box;
-    color: #e8dfc8;
     font-family: "Oswald", sans-serif;
+    font-size: clamp(3.5rem, 1.6vw, 1.3rem);
+}
+
+#eventsTitle {
+    margin-bottom: 3rem;
+    color:#e8dfc8;
 }
